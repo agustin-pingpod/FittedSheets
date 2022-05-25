@@ -415,7 +415,7 @@ public class SheetViewController: UIViewController {
                     UIView.animate(
                         withDuration: animationDuration,
                         delay: 0,
-                        usingSpringWithDamping: self.options.transitionDampening,
+                        usingSpringWithDamping: self.options.transitionDamping,
                         initialSpringVelocity: self.options.transitionVelocity,
                         options: self.options.transitionAnimationOptions,
                         animations: {
@@ -458,7 +458,7 @@ public class SheetViewController: UIViewController {
                 UIView.animate(
                     withDuration: animationDuration,
                     delay: 0,
-                    usingSpringWithDamping: self.options.transitionDampening,
+                    usingSpringWithDamping: self.options.transitionDamping,
                     initialSpringVelocity: self.options.transitionVelocity,
                     options: self.options.transitionAnimationOptions,
                     animations: {
@@ -651,7 +651,7 @@ public class SheetViewController: UIViewController {
         UIView.animate(
             withDuration: duration,
             delay: 0,
-            usingSpringWithDamping: self.options.transitionDampening,
+            usingSpringWithDamping: self.options.transitionDamping,
             initialSpringVelocity: self.options.transitionVelocity,
             options: self.options.transitionAnimationOptions,
             animations: {
